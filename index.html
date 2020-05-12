@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            box-sizing: border-box;
+        }
+        
+        .bg-image {
+            background-image: url("https://www.vhm.fr/themes/custom/vhmgroupe/public/images/actualites.jpg");
+            filter: blur(2px);
+            -webkit-filter: blur(2px);
+            height: 60vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bg-text {
+            background-color: rgb(0, 0, 0);
+            /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4);
+            /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 80%;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        p.lead {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+        }
+        
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+        
+        button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        
+        a {
+            text-decoration: none;
+            font-size: 22px;
+            color: #000;
+            ;
+        }
+        
+        button:hover,
+        a:hover {
+            opacity: 0.7;
+        }
+        
+        #sticky-footer {
+            flex-shrink: none;
+        }
+    </style>
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="bg-image"></div>
+
+    <div class="bg-text">
+        <h1 style="font-size:30px">
+          WhatsApp intègre Messenger Rooms, le concurrent de Zoom   
+        </h1>
+    </div>
+
+    <main class="container mt-4">
+        <div class="row">
+            <div class="col-md-9">
+              <p class="lead mt-1 text-justify">
+                Messenger Rooms, le nouveau service de vidéoconférence de Facebook débarque dans WhatsApp. L’entreprise fait un pas supplémentaire vers l’unification de ses services de messageries. Concrètement, les utilisateurs de WhatsApp pourront créer des vidéosconférences et inviter ceux de Facebook et d’Instagram à y participer.
+              </p>
+              <div class="mt-1 mb-2">
+                    <center>
+                      <img src="https://www.breakingnews.fr/wp-content/uploads/2020/04/Facebook-Messenger-Rooms.jpg" class="img-fluid" alt="Image">
+                    </center>
+              </div>
+                <p class="text-justify">
+                    Le mois dernier, Facebook lançait la plate-forme Messenger Rooms, un concurrent de Zoom et de HouseParty pour les vidéoconférences à l’heure où l’usage de ce type de service est en forte croissance dans le contexte du Coronavirus. La particularité de ce nouveau service est qu’il créera <strong>un pont entre toutes les applications de messagerie de Facebook</strong>. Les utilisateurs de Messenger, WhatsApp, Instagram ou encore Potal pourront participer aux mêmes conférences virtuelles.  
+                </p>   
+              <p class="text-justify">
+                Cela fait plusieurs mois que Facebook travaille sur un projet de messagerie unifié entre ses différents services. Messenger Rooms est la première manifestation de cette volonté. L’intégration dans WhatsApp de cette fonctionnalité a été initialement repérée dans la version bêta de l’application sur Android. Cependant, un nouveau rapport de WaBetaInfo indique que <strong>Messenger Rooms est en cours de test dans WhatsApp Web</strong>.
+              </p>
+              <br><br>
+             <p class="text-justify">
+             Dans sa dernière version 2.2019.6, WhatsApp Web propose un bouton pour créer des salles de discussion ou lancer une vidéoconférence. L’application demande alors à l’utilisateur s’il souhaite créer une salle à partir de WhatsApp ou se rendre sur Facebook Messenger pour l’initier. Les personnes qui souhaitent héberger une vidéoconférence pourront donc le faire à partir de l’une ou l’autre des deux applications puis inviter des participants à rejoindre la conférence via un lien.
+             </p>
+             <p class="text-justify">
+             Les personnes qui participent à ces appels n’ont pas besoin d’avoir un compte Facebook. Les conférences pourront accueillir jusqu’à 50 personnes. Ce nombre est certes inférieur aux 100 participants de Zoom, mais il est suffisant pour satisfaire le besoin des utilisateurs dans la grande majorité des cas.
+             </p>
+              <p class="mb-4 text-justify">
+             Le rapport de WatBetaInfo ne mentionne pas quand le support de Messenger Rooms débarquera pour tous les utilisateurs de WhatsApp. Mais son déploiement pourrait prendre un certain temps étant donné que Facebook s’attelle toujours à rendre le service disponible partout dans le monde.
+             </p>
+             <br><br>
+            </div>
+            <div class="col-md-3 mb-4">
+                <h4 class="font-weight-bold"><strong>D'AUTRES ARTICLES</strong></h4>
+                <hr class="title-hr mb-2">
+
+                <!--Carousel Wrapper-->
+                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                    </ol>
+                    <!--/.Indicators-->
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <a href="https://salma-mindy.github.io/actualit-0/">
+                                <div class="view">
+                                    <img class="d-block w-100" src="https://snyk.io/wp-content/uploads/JavaScript-Report-Feature-.png" alt="First slide">
+                                    <div class="mask rgba-black-light"></div>
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="h3-responsive font-weight-bold">State of Javascript frameworks</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <!--Mask color-->
+                            <a href="https://salma-mindy.github.io/actuality-1/">
+                                <div class="view">
+                                    <img class="d-block w-100" src="https://cdn.i.haymarketmedia.asia/?n=campaign-asia%2Fcontent%2Fshutterstock_535255936.jpg&h=570&w=855&q=100&v=20170226&c=1" alt="Second slide">
+                                    <div class="mask rgba-black-light"></div>
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="h3-responsive font-weight-bold">Alibaba Cloud</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/.Slides-->
+
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <!--/.Controls-->
+                </div>
+                <!--/.Carousel Wrapper-->
+
+                <h4 class="font-weight-bold mt-4"><strong>AUTEUR</strong></h4>
+                <hr class="red title-hr mb-2">
+                <div class="card">
+                    <img src="https://media-exp1.licdn.com/dms/image/C5603AQEdHvhwankOnQ/profile-displayphoto-shrink_100_100/0?e=1593043200&v=beta&t=f7VLwOg26e_O4D5XnM2Q0AOxmt40Me4jV6xXEgm0jqo" alt="John" style="width:100%">
+                    <h3 class="mt-2">Sheila Melissa</h3>
+                    <div style="margin: 24px 0;">
+                        <a href="https://www.linkedin.com/in/anoa-sheila-melissa-aka-96a859162"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100007165728234"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <p><button>contacter</button></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer id="sticky-footer" class="py-4 text-white-50" style="background: #000">
+        <div class="container text-center">
+            <small style="cursor: pointer;color: antiquewhite;">Copyright &copy; <span style="font-weight: 900;">Sheila Melissa</span></small>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</body>
+
+</html>
